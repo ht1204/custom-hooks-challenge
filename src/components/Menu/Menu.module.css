@@ -1,0 +1,111 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 16%);
+}
+
+.dropdown-dashboard {
+    height: 100%;
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dropdown-dashboard h1 {
+    margin: 25px 10px;
+}
+
+
+.strategy-selector {
+    margin-bottom: 0px;
+}
+
+.strategy-selector label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.strategy-selector select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+select {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+
+.dropdown-dashboard .selected-option {
+    margin: 0 0 10px auto;
+    font-size: 14px;
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 20px;
+    }
+
+    button,
+    select {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    select {
+        font-size: 14px;
+    }
+
+    .selected-option {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    button,
+    select,
+    .selected-option {
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    .selected-option {
+        font-size: 14px;
+    }
+}
