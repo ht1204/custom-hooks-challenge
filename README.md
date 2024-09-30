@@ -1,4 +1,4 @@
-# Dropdown Challenge
+# Custom Hooks Challenge
 
 ## About the Project
 
