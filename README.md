@@ -31,6 +31,6 @@ To run this project locally, follow these steps:
 
 ## Motivation
 
-For additional resources, check out the [document](src/docs/custom_hooks_study-group.pdf). \
+For additional resources, check out the [document](src/docs/custom_hooks_study-group.pdf).
 
 
